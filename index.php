@@ -11,14 +11,14 @@
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   
   <!-- css library -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.12.1/simple-lightbox.css"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.css" rel="stylesheet"/>
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" rel="stylesheet"/>
+  <link rel="stylesheet" type="text/css" href="/assets/css/lib/simple-lightbox.css"/>
+  <link href="/assets/css/lib/owl.carousel.css" rel="stylesheet"/>
+  <link href="/assets/css/lib/owl.theme.default.min.css" rel="stylesheet"/>
 
   <!-- js library -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.js"></script> 
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.12.1/simple-lightbox.min.js"></script>
+  <script src="/assets/js/lib/jquery.js"></script>
+  <script src="/assets/js/lib/owl.carousel.js"></script> 
+  <script type="text/javascript" src="/assets/js/lib/simple-lightbox.min.js"></script>
 </head>
 <body>
 
@@ -44,59 +44,76 @@
     <div class="content-container">
     
         <div class="content" id="about-us">
-            <div class="heading">
-               <h1>ABOUT US</h1>
-            </div>
-            <div class="description">
-               <p>We are the leaders in the design, deployment, integration and management of advanced communication networks in India, with a comprehensive, integrated platform solution for high performance fiber networks. We work hand-in-hand with India’s most innovative and successful builders, building future-ready homes with seamless digital services, including IP and IoT services, security management, energy management and home automation solutions customized to their requirements.
-               <br><br>Just like electric power systems did in the 20th century, advanced communication networks are now driving simultaneous innovation in every aspect that matters to communities. Parametrique is your trusted partner to make this a reality for communities that you’re building today.</p>
-            </div>
+            <div class="box-group about-group">
+                <div class="box">
+                    <div class="heading">
+                       <h1>About Us</h1>
+                    </div>
+                    <div class="description"> 
+                        <p>We are the leaders in the design,
+                            deployment, integration and management
+                            of advanced communication networks in
+                            India, with a comprehensive, integrated
+                            platform solution for high performance
+                            fiber networks. We work hand-in-hand with
+                            India’s most innovative and successful builders,
+                            building future-ready homes with seamless
+                            digital services, including IP and IoT services,
+                            security management, energy management and home
+                            automation solutions customized to their requirements.
+                        </p>
+                    </div>
+                    <div class="link">  
+                        <button onclick="location.href='/about-us.php'">Read More</button>
+                    </div>        
+                </div>  
+                <div class="box">
+                    <div class="box-group count-group">
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/media/image/home/icon-1.png" alt="icon">
+                            </div>
+                            <div class="description">
+                                <h1 id="num" data-val="5">5+</h1> 
+                                <p>Years in Business</p> 
+                            </div>    
+                        </div>  
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/media/image/home/icon-2.png" alt="icon">
+                            </div>
+                            <div class="description">
+                                <h1 id="num" data-val="300">300+</h1> 
+                                <p>Employees</p> 
+                            </div> 
+                        </div>   
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/media/image/home/icon-3.png" alt="icon">
+                            </div>
+                            <div class="description">
+                                <h1 id="num" data-val="60">60,000+</h1> 
+                                <p>Satisfied Clients</p> 
+                            </div> 
+                        </div>   
+                        <div class="box">
+                            <div class="icon">
+                                <img src="assets/media/image/home/icon-4.png" alt="icon">
+                            </div>
+                            <div class="description">
+                                <h1 id="num" data-val="100">100+</h1> 
+                                <p>Projects Completed</p> 
+                            </div> 
+                        </div>     
+                    </div>   
+                </div>  
+            </div>       
         </div>
         <!--content close-->
-        <div class="content">
-            <div class="box-group count-group">
-                <div class="box">
-                   <div class="icon">
-                      <img src="assets/media/image/home/icon-1.png" alt="icon">
-                   </div>
-                   <div class="description">
-                      <h1 id="num" data-val="5">5+</h1>
-                      <p>Years in Business</p> 
-                    </div> 	   
-                </div>
-                <div class="box">
-                    <div class="icon">
-                       <img src="assets/media/image/home/icon-2.png" alt="icon">
-                    </div>
-                    <div class="description">
-                       <h1 id="num" data-val="300">300+</h1>
-                       <p>Employees</p> 
-                    </div> 	   
-                </div>
-                <div class="box">
-                    <div class="icon">
-                       <img src="assets/media/image/home/icon-3.png" alt="icon">
-                    </div>
-                    <div class="description">
-                       <h1 id="num" data-val="60">60,000+</h1>
-                       <p>Satisfied Clients</p> 
-                    </div> 	   
-                </div>
-                <div class="box">
-                    <div class="icon">
-                        <img src="assets/media/image/home/icon-4.png" alt="icon">
-                    </div>
-                    <div class="description">
-                       <h1 id="num" data-val="100">100+</h1>
-                       <p>Projects Completed</p> 
-                    </div> 	   
-                </div>
-            </div>
-        </div>
-        <!--content close-->
+
         <div class="content">
             <div class="heading">
-                <h1>EXPERTISE</h1> 
+                <h1>Expertise</h1> 
             </div> 
             <div class="box-group expertise-group">
                 <div class="box">
@@ -160,7 +177,7 @@
         <!--content close-->
         <div class="content" id="ftth">
             <div class="heading">
-                <h1>FTTH</h1>
+                <h1>Ftth</h1>
             </div>
             <div class="box-group ftth-group">
                 <div class="box">
@@ -196,7 +213,7 @@
         <!--content close-->
         <div class="content" id="solution">
             <div class="heading">
-                <h1>SOLUTIONS</h1>
+                <h1>Solutions</h1>
             </div>
             <div class="description">
                 <p>Our integrated and innovative network solutions allow the transmission of the network through the medium of our optic fiber. Communities can choose any network provider according to their need and we will amplify the user experience with the convenience of our optical cables that will carry the network to the user location. There are no charges that are levied on the customer apart from the specific plan or network connection that they choose.</p>
@@ -208,7 +225,7 @@
         <!--content close-->
         <div class="content" id="service">
             <div class="heading">
-                <h1>SERVICE</h1>
+                <h1>Services</h1>
             </div>
             <div class="box-group service-group">
                 <div class="box">
@@ -306,7 +323,7 @@
         <!--content close-->
         <div class="content" id="gallery">
             <div class="heading">
-               <h1>GALLERY</h1>
+               <h1>Gallery</h1>
             </div>
             <div class="owl-carousel owl-theme gallery-group" id="gallery-image">
                 <div class="box" id="image">
@@ -404,7 +421,7 @@
         <!--content close-->
         <div class="content">
             <div class="heading">
-               <h1>CLIENTS</h1>
+               <h1>Clients</h1>
             </div>
             <div class="owl-carousel owl-theme client-group">
                 <div class="box">
@@ -442,7 +459,7 @@
         <!--content close-->
         <div class="content" id="contact-us">
             <div class="heading">
-               <h1>CONTACT US</h1>
+               <h1>Contact Us</h1>
             </div>
             <div class="box-group contact-group">
                 <div class="box flex-right">
@@ -451,7 +468,7 @@
                        <li>ATS Tower, 2nd Floor,Plot-16, Sector-135<br> Noida, UP-201301.</li>
                        <li><i style="font-size:18px;color:black;margin-right:5px;" class="fa fa-phone"></i><a href="tel:+919899552200">+91-9899552200</a></li> 
                        <li><i style="font-size:18px;color:black;margin-right:5px;" class="fa fa-envelope"></i><a href="mailto:helpdesk@parametrique.com">helpdesk@parametrique.com</a></li>  
-                       <li><button onclick="location.href='/contact-us.php#form'">GET TOUCH</button></li>
+                       <li><div class="link"><button onclick="location.href='/contact-us.php#form'">GET TOUCH</button></div></li>
                     </ul>
                 </div>
                 <div class="box flex-left">
@@ -488,26 +505,30 @@ $('.gallery-group').owlCarousel({
     }
 })
 
-$('.client-group').owlCarousel({
-    loop:true,
-	autoplay: true,
-    autoplayTimeout:1000,
-    margin:5,
-    nav:false,
-	dots:false,
-    autoplayHoverPause:true,
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:3
-        },
-        1000:{
-            items:5
-        }
-    }
-})
+jQuery('.client-group').owlCarousel({
+            center: true,
+            items:5,
+            loop:true,
+            margin:5,
+            nav:false,
+            dots:false,
+            autoplay: true,
+            slideTransition: 'linear',
+            autoplayTimeout: 3000,
+            autoplaySpeed: 3000,
+            autoplayHoverPause: true,
+            responsive:{
+                0:{
+                    items:1
+                },
+                600:{
+                    items:3
+                },
+                1000:{
+                    items:5
+                }
+            }
+        });
 </script>    
 
 <script type="text/javascript" src="assets/js/main.js"></script> 

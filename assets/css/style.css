@@ -80,6 +80,7 @@ a{
     position:relative;
     width:100%;
     height:auto;
+    font-family: "Lato", sans-serif;
 }
 .box-group{
     display:flex;
