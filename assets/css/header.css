@@ -1,0 +1,134 @@
+.header-container{
+    background: rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top:0%;
+    left:0%;
+    width:100%;
+    height:auto;
+    z-index: 1;
+    overflow:hidden;
+}
+.header-top{
+    background: none;
+    width:95%;
+    height:5vh;
+    padding: 1%;
+    text-align: right;
+    overflow:hidden;
+}
+.header-top ul li{
+    display: inline-block;
+    margin-right:1%;
+    font-size: 15px;
+}
+.header-main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+.logo{
+    width: 18%;
+    height: 10vh;
+    margin-left: 6%;
+    margin-bottom: 1%;
+}
+.navbar{
+    width:70%;
+    margin-top: 1%;
+    font-size: 15px;
+    font-style: normal;
+    text-align: right;
+    overflow: hidden;
+}
+.navbar ul li{
+    display: inline-block;
+    margin-right:1%;
+    padding: 1%;
+    transition: 0.1s;
+    overflow: hidden;
+}
+.navbar ul li:hover{
+    border-bottom: 2px solid white;
+}
+.navbar .active{
+    border: 2px solid white;
+}
+.menu-btn{
+    display: none;
+    margin-top: 2%;
+    margin-left: 45%;
+}
+.menu-font::before{
+   content: "\002630";
+   font-size: 40px;
+}
+.menu-container{
+    background: linear-gradient(to right, black, #030336);
+    display: none;
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    overflow: hidden;
+}
+.close-icon::before{
+    content: "\2716";
+    float: right;
+    margin-top: 5%;
+    margin-right: 10%;
+    font-size: 40px;
+}
+.menu{
+    text-align: center;
+    margin-top: 20%;
+    font-size: 20px;
+}
+.menu li{
+    margin-top:5%;
+}
+/* responsive design*/
+@media (max-width: 1000px) {
+    
+    .header-top{
+        height: 7vh;
+        padding: 1%;
+    }
+    .header-top ul{
+        margin-left: 0%;
+        text-align: center;
+    }
+    .logo{
+        width: 30%;
+    }
+    .navbar{
+        display: none;
+    }
+    .menu-btn{
+        display: block;
+        margin-top: 2px;
+    }
+    .menu{
+        margin-top: 25%;
+    }
+     .menu li{
+        margin-top: 10%;
+    } 
+}
+@media (max-width: 600px) {
+    
+    .header-top{
+        display: none;
+    }
+    .logo{
+        width: 60%;
+        height: 10vh;
+        margin-top: 5%;
+    }
+    .menu-btn{
+        margin-top: 8%;
+        margin-left: 18%;
+    }
+}
