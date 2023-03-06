@@ -29,7 +29,7 @@
     <!--Banner container start-->
     <div class="banner-container banner-container-video">
         <div class="banner-video">
-            <video loop muted autoplay preload="auto">
+            <video playsinline loop muted autoplay preload="auto">
                 <source src="assets/media/video/home-banner.mp4" type="video/mp4">
             </video>
         </div> 

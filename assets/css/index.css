@@ -187,6 +187,9 @@
         margin-top: 5%;
         padding: 2%;
     }
+    .gallery-group .box{
+        height: 35vh;
+    }
     .contact-group .box{
         width: 100%;
         height: 45vh;

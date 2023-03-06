@@ -76,11 +76,11 @@
     overflow: hidden;
 }
 .close-icon::before{
-    content: "\2716";
+    content: "\00d7";
     float: right;
     margin-top: 5%;
     margin-right: 10%;
-    font-size: 40px;
+    font-size: 60px;
 }
 .menu{
     text-align: center;
@@ -125,11 +125,11 @@
     }
     .logo{
         width: 60%;
-        height: 10vh;
         margin-top: 5%;
+        margin-bottom: 2%;
     }
     .menu-btn{
-        margin-top: 8%;
-        margin-left: 18%;
+        margin-top: 5%;
+        margin-left: 16%;
     }
 }
