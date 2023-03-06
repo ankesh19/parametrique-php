@@ -74,7 +74,7 @@
                                 <img src="assets/media/image/home/icon-1.png" alt="icon">
                             </div>
                             <div class="description">
-                                <h1 id="num" data-val="5">5+</h1> 
+                                <h1 id="num" data-val="10">10+</h1> 
                                 <p>Years in Business</p> 
                             </div>    
                         </div>  
