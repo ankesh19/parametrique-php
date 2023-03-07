@@ -45,7 +45,7 @@
               <li><a href="/#about-us" onclick="menuHide();">ABOUT US</a></li> 
               <li><a href="/#ftth" onclick="menuHide();">FTTH</a></li> 
               <li><a href="/#solution" onclick="menuHide();">SOLUTIONS</a></li> 
-              <li><a href="/#services" onclick="menuHide();">SERVICES</a></li> 
+              <li><a href="/#service" onclick="menuHide();">SERVICES</a></li> 
               <li><a href="/#gallery" onclick="menuHide();">GALLERY</a></li> 
               <li><a href="/#contact-us" onclick="menuHide();">CONTACT US</a></li>  
             </ul>        
