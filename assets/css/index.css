@@ -3,7 +3,6 @@
     height: auto;
     padding: 4%;
     padding-top: 2%;
-    overflow: hidden;
 }
 .heading{
     color: #4d598c;
@@ -30,15 +29,6 @@
     background: #4d598c;
     color: white;
 }
-.box-group{
-    justify-content: space-around;
-}
-.box{
-    overflow: hidden;
-}
-.about-group{
-    justify-content: left;
-}
 .about-group .box{
     width:45%;
     height: auto;
@@ -57,7 +47,7 @@
 }
 .count-group .icon{
     width: 15%;
-    height: 25%;
+    height: 30%;
     margin-left: 40%;
 }
 .count-group h1{
@@ -68,6 +58,9 @@
 .count-group p{
     text-align: center;
     margin-top: 2%;
+}
+.expertise-group{
+    justify-content: space-around;
 }
 .expertise-group .box{
     background: #e7e4f5;
@@ -86,6 +79,9 @@
     color: black;
     font-size: 11px;
     text-decoration: none;
+}
+.ftth-group{
+    justify-content: space-around;
 }
 .ftth-group .box{
     background: #e7e4f5;
@@ -108,6 +104,9 @@
     width: 100%;
     height: 70vh;
     margin-top: 3%;
+}
+.service-group{
+    justify-content: space-around;
 }
 .service-group .box{
     background: #e7e4f5;
@@ -162,12 +161,16 @@
     }
     .about-group .box{
         width: 100%;
-        margin-top: 0%;
+        margin-top: 5%;
+        margin-left: 5%;
     }
     .count-group .box{
-        width: 45%;
-        height: auto;
+        width: 50%;
         margin-top: 5%;
+        margin-left: 0%;
+    }
+    .count-group p{
+        margin-bottom: 25%;
     }
     .expertise-group .box{
         width: 100%;
@@ -189,6 +192,9 @@
     }
     .gallery-group .box{
         height: 35vh;
+    }
+    .client-group .box{
+        height: 30vh;
     }
     .contact-group .box{
         width: 100%;

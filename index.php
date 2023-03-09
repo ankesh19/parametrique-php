@@ -27,12 +27,12 @@
 <div class="main-container">
     
     <!--Banner container start-->
-    <div class="banner-container banner-container-video">
+    <div class="banner-container-video">
         <div class="banner-video">
-            <video playsinline loop muted autoplay preload="auto">
+            <video  loop muted autoplay playsinline preload="yes">
                 <source src="assets/media/video/home-banner.mp4" type="video/mp4">
             </video>
-        </div> 
+        </div>    
         <div class="banner-text"> 
             <h1>Parametrique Offers Innovative & Integrated Fiber To The Home Solutions</h1>
             <p>Designing , Deployment, Integration & Management</p>

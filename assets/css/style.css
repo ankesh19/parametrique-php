@@ -119,6 +119,7 @@ a{
     }
     .banner-video{
         width: 100%;
+        height: 31vh;
     }
     .banner-container-video .banner-text{
         display: none;
