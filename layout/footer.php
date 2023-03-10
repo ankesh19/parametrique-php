@@ -72,7 +72,7 @@
     </div>
     <!-- footer bottom -->
     <div class="footer-bottom">
-       <p>Powered By 2022 @Parametrique.</p> 
+       <p>Powered By 2023 @Parametrique.</p> 
     </div>       
 </div>    
 <!--footer close-->

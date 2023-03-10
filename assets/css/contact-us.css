@@ -11,6 +11,7 @@
     background-color: #4d598c;
     color: white;
     width:25%;
+    height: auto;
     margin-left:6%;
     padding: 4%;
     text-align: center;
@@ -72,24 +73,30 @@
         margin-top: 5%;
     }
     .form-container{
-        margin-left: 10%;
+        width: 100%;
+        margin-left: 0%;
+        padding: 5%;
     }
     .form-container input{
-        width: 80%;
+        width: 100%;
     }
     .form-container textarea{
-        width: 80%;
+        width: 100%;
     }
 }
 @media (max-width: 600px) {
     
     .box{
-        width: 90%;
+        width: 100%;
         margin-top: 5%;
-        margin-left: 5%;
+        margin-left: 0%;
         padding: 10%;
     }
-    .form-container{
-        margin-left: 15%;
-    } 
+    .box .image{
+        height:18vh;
+    }
+    .google-map-container{
+        height:60vh;
+        padding:2%;
+    }
 }

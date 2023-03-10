@@ -100,7 +100,11 @@ a{
         height: 50vh;
     }
     .banner-container-video{
-        height: 60vh;
+        height: 70vh;
+    }
+    .banner-video{
+        width: 100%;
+        height: auto;
     }
     .flex-left{
         order: 0;
@@ -110,16 +114,15 @@ a{
     }
 }
 @media (max-width: 600px) {
-
+ 
+    video{
+        height: auto;
+    }
     .banner-image{
         height: 40vh;
     }
     .banner-container-video{
         height: 25vh;
-    }
-    .banner-video{
-        width: 100%;
-        height: 31vh;
     }
     .banner-container-video .banner-text{
         display: none;

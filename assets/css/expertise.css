@@ -10,6 +10,7 @@
     margin-top: 1%;
     margin-left: 5%;
     text-align: justify;
+    overflow: hidden;
 } 
 .box p{
     margin-top: 5%;
@@ -30,9 +31,17 @@
 @media (max-width: 600px) {
     
     .box{
-        width: 90%;
+        width: 100%;
         height: auto;
         margin-top: 10%;
+        margin-left: 0;
+    }
+    .box img{
+        height: auto;
+    }
+    .description{
+        width: 100%;
+        margin-left: 0%;
     }
     .description p{
         margin-top: 10%;

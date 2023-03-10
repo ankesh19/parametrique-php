@@ -61,10 +61,20 @@
 @media (max-width: 600px) {
     
     .box{
-        width: 90%;
+        width: 100%;
         margin-top: 5%;
         margin-bottom: 5%;
-        margin-left: 5%;
+        margin-left: 0%;
+    }
+    .box img{
+        height: auto;
+    }
+    .box h1,h2{
+        text-align: left;
+        margin-bottom: 10%;
+    }
+    .full-width .box{
+        width:100%;
     }
     .small-box .box{
         width:40%;

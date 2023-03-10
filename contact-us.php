@@ -63,7 +63,7 @@
 
         <div class="content" id="form"> 
             <div class="form-container">
-                <form #contactform action="#" method="post" (submit)="contact(contactform);">
+                <form  action="#" method="post" onsubmit="return false;">
                     <div>
                        <p>Your Name:</p>
                        <input type="text" name="name" required>

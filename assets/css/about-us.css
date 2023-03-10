@@ -58,13 +58,22 @@
 }
 
 @media (max-width: 600px) {
-    
-    .box{
-        width: 80%;
-        height: auto;
+    .content .heading{
         margin-top: 5%;
-        margin-bottom: 10%;
-        margin-left: 10%;
+        margin-left: 0%;
+    }
+    .content .description{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+        margin-top: 0%;
+        margin-left: 0%;
+    }
+    .box img{
+        height: auto;
     }
     .box .icon{
         width:30%;
